@@ -18,6 +18,8 @@ const schema = new Schema(
     },
     password: {
       type: String,
+      required: true,
+      default: "",
     },
   },
   { timestamps: true }

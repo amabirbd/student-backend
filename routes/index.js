@@ -4,6 +4,6 @@ const router = express.Router();
 
 const StudentRoute = require("./student.route");
 
-router.use("/student", StudentRoute);
+router.use("/students", StudentRoute);
 
 module.exports = router;

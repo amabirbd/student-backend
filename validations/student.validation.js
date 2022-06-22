@@ -12,7 +12,7 @@ const addStudent = {
     name: Joi.string().required(),
     address: Joi.string().required(),
     email: Joi.string().required(),
-    password: Joi.string(),
+    password: Joi.string().required(),
   }),
 };
 
